@@ -3,7 +3,7 @@ import numpy as np
 from encoding import encode
 from encoding import decode
 
-model = load_model('Model-0.hf')
+model = load_model('Model-0.1.hf')
 
 post_title = input("What do you want to know from u/rogersimon10? \n")
 post_title = "What’s the worst thing you’ve eaten out of politeness?"

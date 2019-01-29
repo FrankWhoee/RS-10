@@ -47,8 +47,7 @@ epochs = 7
 model = Sequential()
 
 # Dense layers and output
-model.add(Dense(longest_question, activation='relu'))
-model.add(Dense(256, activation='relu'))
+model.add(Dense(256, input_shape=(longest_question,)))
 model.add(Dense(128, activation='relu'))
 model.add(Dense(64, activation='relu'))
 model.add(Dense(32, activation='relu'))
